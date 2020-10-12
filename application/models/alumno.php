@@ -18,7 +18,8 @@ require_once "alumnosdao.php";
 
  	public function poblarPropiedades(array $datos)
  	{
- 		$id=0;
+ 		//Aqui esta lo que no funciona, estoy inicializando a cero. Creo no funciona el autoincremento :)
+		$id=0;
  		
 		$this->$id = isset($datos['id']) ? trim($datos['id']) : 0;
 
@@ -44,6 +45,7 @@ require_once "alumnosdao.php";
 						'pais' => $this->pais,
 						'fecha' => $this->fecha
 						);
+		//*tengo problema con la fotografia de ajax eso creo porque he reducido los campros en codificaxcion
 						//'fotografia'=>$this->fotografia);
 		return $arreglo;
 	}
