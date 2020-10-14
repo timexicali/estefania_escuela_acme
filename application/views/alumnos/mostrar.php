@@ -7,7 +7,7 @@
 	<link  href="/extras/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link  href="/extras/css/jquery.dataTables.min.css">
 
-	<script type="text/javascript" src="/extras/DataTables/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/extras/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/extras/js/jquery.dataTables.min.js"></script>
 	<script type="text/javascript" src="/extras/js/jquery.form-validator.min.js"></script>
 	<script>
